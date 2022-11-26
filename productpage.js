@@ -200,3 +200,4 @@ function quantityChange(e){
     }
     updateTotal()
 }
+
