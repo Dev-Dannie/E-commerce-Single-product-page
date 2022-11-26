@@ -73,8 +73,11 @@ smallImage3[3].addEventListener('click', () => {
     bigImage3.src = smallImage3[3].src
 })
 
+
 const cartIcon = document.getElementById('shopping')
 const cartIt = document.getElementById('cart-container')
+
+// Display cart items
 
 cartIcon.addEventListener('click', () => {
     cartIt.classList.toggle('show-cart')
